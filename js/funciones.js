@@ -15,7 +15,6 @@ let segundoHijo = rect.lastElementChild;
 segundoHijo.appendChild(copiarTexto);
 
 function encriptarTexto(){
-        console.log("Función encriptarTexto ejecutada");
         let contenido = textArea.value;
         // convierte el string en un Array, saparando cada letra
         let caracter = contenido.split("");
@@ -59,7 +58,6 @@ function desencriptarTexto() {
         
         textArea.value = desencriptarCaracter;
         
-        console.log(desencriptarCaracter);
 }
 
 document.addEventListener("DOMContentLoaded", function () {
