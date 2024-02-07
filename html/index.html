@@ -10,25 +10,30 @@
 <body>
     <main>
         <section class="area">
-            <h1><img class="logo" src="../img/Logo.png" alt="Logo-Alura-Latam"></h1>
+            <div class="contenedor-logo">
+                <h1><img class="logo" src="../img/Logo.png" alt="Logo-Alura-Latam"></h1>
+            </div>
             <div class="box">
-                <textarea type="text" rows="9" class="textarea" id="textarea" placeholder="Ingrese el texto aqui"></textarea>
+                <textarea type="text"  class="textarea" id="textarea" placeholder="Ingrese el texto aqui"></textarea>
             </div>
             <div class="botones">
-                <p><img src="../img/Vector.png" alt="aviso"> Solo letras minúsculas y sin acentos</p>
-                <button id="encriptar" class="btn">Encriptar</button>
-                <button id="desencriptar" class="btn">Desencriptar</button>
+                <div class="contenedor-boton">
+                    <p><img src="../img/Vector.png" alt="aviso"> Solo letras minúsculas y sin acentos</p>
+                    <button id="encriptar" class="btn">Encriptar</button>
+                    <button id="desencriptar" class="btn">Desencriptar</button>
+                </div>
             </div>
         </section>
-        <section class="rectangulo">
+        <section class="rectangulo" id="rectangulo">
             <div class="cripto" id="cripto">
                 <img src="../img/Muñeco.png" alt="muñeco" class="muñeco" id="muñeco">
-                <span></span>
-                <div class="textos">
+                <div class="textos" id="textos">
                     <h2 class="mensaje" id="mensaje">Ningún mensaje fue encontrado</h2>
+                    <h3 class="mensaje"></h3>
                     <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar.</p>
                 </div>
-                <!-- <button>Copiar</button> -->
+                <!-- <div id="copiarMensaje"></div> -->
+                <!-- <button class="btncopiar" id="copiar">Copiar</button> -->
             </div>
         </section>
     </main>
