@@ -206,7 +206,7 @@ h1{
     }
 }
 
-@media(max-width:500px){
+@media(max-width:658px){
     main{
         grid-template-columns: 1fr 1fr ;
         grid-template-areas: 
