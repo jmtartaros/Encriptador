@@ -245,5 +245,6 @@ h1{
     }
     .rectangulo .cripto{
         height: 100%;
+        padding: 2rem;
     }
 }
