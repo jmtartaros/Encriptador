@@ -230,7 +230,7 @@ h1{
     }
     .contenedor-boton{
         margin-top: 0.5rem;
-        width: 100%;
+        width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
