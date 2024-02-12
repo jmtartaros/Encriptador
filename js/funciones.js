@@ -41,7 +41,6 @@ function encriptarTexto(){
                         textArea.value = caracter.join("");
                         almacenar.push(caracter.join(""));
                         insertarElemento("h2 ","Texto Encriptado Exitosamente.");
-                        limpiarCaja();
                         eliminarMensaje();
                         copiarTexto.style.display = "inline-block";
                 }
@@ -112,7 +111,4 @@ function eliminarElement(id) {
         if(element){
                 element.remove();
         }
-}
-function limpiarCaja() {
-        document.getElementById("textarea").value = "";
 }
